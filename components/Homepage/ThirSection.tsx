@@ -5,8 +5,10 @@ const ThirdSection = () => {
         <section className="py-4">
           <h1>Events and Weddings</h1>
           <section className="flex justify-between">
-            <h1 className="text-4xl">About</h1>
-            <button className=" bg-black px-2 py-1 text-white">See more</button>
+            <h1 className="text-2xl lg:text-4xl">About</h1>
+            <button className=" bg-black px-2 py-1 text-sm text-white">
+              See more
+            </button>
           </section>
         </section>
 

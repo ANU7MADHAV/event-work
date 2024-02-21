@@ -2,13 +2,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex w-screen justify-between bg-black text-left lg:px-[150px] lg:py-8 ">
+    <div className="flex h-full w-screen items-center justify-between bg-black px-2 py-6 text-left text-sm lg:px-[150px] lg:py-8 ">
       <div className="flex w-full flex-col  lg:ml-[210px]">
-        <div className="my-4 text-center text-white">
+        <div className=" py-4 text-center text-white">
           <h1 className="text-2xl text-white">KING&apos;S</h1>
           <p className="text-white">Events and Weddings</p>
         </div>
-        <div>
+        {/* <div>
           <p className="text-white">News Letter</p>
           <input
             type="text"
@@ -19,10 +19,10 @@ const Footer = () => {
           <p className="text-white">
             Sign up with your email address to receive news and updates
           </p>
-        </div>
+        </div> */}
       </div>
 
-      <div className="w-full space-y-2 py-6 text-center text-white">
+      <div className="w-full text-center text-white md:space-y-3 md:text-base lg:space-y-2 lg:py-6">
         <p>CONTACT US</p>
         <p>Any where, Any city,445533</p>
         <p>Call Us: +91888866668888</p>

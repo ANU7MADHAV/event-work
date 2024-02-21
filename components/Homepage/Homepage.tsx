@@ -6,7 +6,7 @@ import { SheetDemo } from "../Navbar/MobileNavbar";
 
 export default function Home() {
   return (
-    <main className="w-screen  lg:grid lg:grid-cols-8">
+    <main className="w-screen overflow-x-hidden lg:grid lg:grid-cols-8">
       <nav className="lg:fixed lg:top-0 lg:col-start-1 lg:h-screen ">
         <section className="hidden h-screen lg:block">
           <Navbar />
