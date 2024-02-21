@@ -5,13 +5,12 @@ import wedding from "@/public/wedding.png";
 
 const SecondSection = () => {
   return (
-    <div className="ml-[150px] w-[1000px] bg-[#FFF7EA] px-8">
+    <div className="bg-[#FFF7EA] px-8 lg:ml-[150px] lg:w-[1000px]">
       <section className="py-6">
         <h1 className="text-lg">Events and Weddings</h1>
         <h1 className="text-4xl font-bold">Our services</h1>
       </section>
-
-      <section className="flex gap-[80px]">
+      <section className="flex flex-col lg:flex-row lg:gap-[80px]">
         <Image src={birthday} alt="birthday" />
         <Image src={event} alt="event" />
         <Image src={wedding} alt="wedding" />

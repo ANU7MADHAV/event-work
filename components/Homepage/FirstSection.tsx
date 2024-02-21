@@ -1,9 +1,14 @@
+import { SheetDemo } from "../Navbar/MobileNavbar";
+
 const FirstSection = () => {
   return (
-    <div className="h-[800px] w-full bg-[url('/home.png')] bg-cover  object-cover">
-      <div className="ml-[180px] flex h-full items-end justify-start py-9 pb-[150px] ">
-        <section className="w-auto bg-white p-6 ">
-          <h3 className="pb-6">Dream Maker</h3>
+    <div className="flex h-screen w-screen bg-[url('/home.png')] bg-cover object-cover  lg:h-[800px]">
+      <section className="visible bg-none lg:hidden">
+        <SheetDemo />
+      </section>
+      <div className="mb-8 flex w-[300px] items-end justify-center ">
+        <section className="-ml-8 w-auto bg-white p-4 lg:p-6 ">
+          <h3 className="pb-3 lg:pb-6">Dream Maker</h3>
           <h1 className="py-2 text-lg">YOUR PERSONAL DREAM MAKER</h1>
           <p className="text-sm">
             We believe that it is all about the BIG DREAMS and the small

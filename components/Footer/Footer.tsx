@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex w-screen justify-between bg-black px-[150px] py-8 text-left ">
-      <div className="ml-[210px] flex w-full  flex-col">
+    <div className="flex w-screen justify-between bg-black text-left lg:px-[150px] lg:py-8 ">
+      <div className="flex w-full flex-col  lg:ml-[210px]">
         <div className="my-4 text-center text-white">
           <h1 className="text-2xl text-white">KING&apos;S</h1>
           <p className="text-white">Events and Weddings</p>

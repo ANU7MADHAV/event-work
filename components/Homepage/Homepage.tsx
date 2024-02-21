@@ -2,14 +2,18 @@ import FirstSection from "@/components/Homepage/FirstSection";
 import SecondSection from "./SecondSection";
 import Navbar from "../Navbar/Navbar";
 import ThirdSection from "./ThirSection";
+import { SheetDemo } from "../Navbar/MobileNavbar";
 
 export default function Home() {
   return (
-    <main className="grid w-screen grid-cols-8 overflow-x-hidden">
-      <nav className="fixed top-0 col-start-1 h-screen ">
-        <Navbar />
+    <main className="w-screen  lg:grid lg:grid-cols-8">
+      <nav className="lg:fixed lg:top-0 lg:col-start-1 lg:h-screen ">
+        <section className="hidden h-screen lg:block">
+          <Navbar />
+        </section>
       </nav>
-      <div className="col-start-2 col-end-9 w-screen">
+
+      <div className="w-screen lg:col-start-2 lg:col-end-9">
         <div>
           <FirstSection />
         </div>

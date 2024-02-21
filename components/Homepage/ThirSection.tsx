@@ -1,12 +1,12 @@
 const ThirdSection = () => {
   return (
-    <div className="ml-[160px] flex w-auto justify-between bg-[#FFF7EA] px-4 py-10">
-      <section className="flex w-[950px] flex-col">
+    <div className="ustify-between flex w-auto bg-[#FFF7EA] px-8 pb-3 lg:ml-[160px] lg:px-4 lg:py-10">
+      <section className="flex w-[9500px] flex-col">
         <section className="py-4">
           <h1>Events and Weddings</h1>
           <section className="flex justify-between">
             <h1 className="text-4xl">About</h1>
-            <button className="bg-black px-2 py-1  text-white">See more</button>
+            <button className=" bg-black px-2 py-1 text-white">See more</button>
           </section>
         </section>
 
