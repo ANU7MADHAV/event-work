@@ -3,7 +3,7 @@ import { SheetDemo } from "../Navbar/MobileNavbar";
 const FirstSection = () => {
   return (
     <div className="flex h-screen w-screen bg-[url('/home.png')] bg-cover object-cover  lg:h-[800px]">
-      <section className="visible bg-none lg:hidden">
+      <section className="visible bg-none p-4 lg:hidden">
         <SheetDemo />
       </section>
       <div className="-ml-10 mb-5 flex w-[300px] items-end justify-start md:w-full lg:ml-[180px] ">
