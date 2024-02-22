@@ -1,5 +1,4 @@
 import Link from "next/link";
-import link from "next/link";
 
 const Routes = () => {
   const navLinks = [
@@ -17,7 +16,7 @@ const Routes = () => {
     },
     {
       name: "Blog",
-      to: "/blog",
+      path: "/blog",
     },
     {
       name: "Contact",
@@ -30,7 +29,7 @@ const Routes = () => {
       <ul>
         {navLinks.map((link, index) => (
           <li key={index}>
-            <Link href={link.path!}>
+            <Link href={link.path}>
               <h1 className="text-[#A2783A]">{link.name}</h1>
             </Link>
           </li>
