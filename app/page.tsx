@@ -5,7 +5,6 @@ export default function page() {
   return (
     <main className="bg-pink-200 bg-cover">
       <Homepage />
-      <Footer />
     </main>
   );
 }

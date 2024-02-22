@@ -6,8 +6,12 @@ import {
   SheetHeader,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import logo from "@/public/logo.png";
+import Image from "next/image";
+import Link from "next/link";
 import { Button } from "../ui/button";
-import Navbar from "./Navbar";
+import Routes from "./Routes";
+import SocialNetworks from "./SocialNetworks";
 
 export function SheetDemo() {
   return (
@@ -17,9 +21,30 @@ export function SheetDemo() {
           Open
         </Button>
       </SheetTrigger>
-      <SheetContent>
-        <SheetHeader className="h-screen py-2">
-          <Navbar />
+      <SheetContent className="bg-pink-200">
+        <SheetHeader className="h-screen pb-4">
+          <div className="flex h-full  w-full flex-col justify-around overflow-y-scroll  px-8 text-center">
+            <section className="w-full">
+              <Link href="/" className="flex justify-center">
+                <Image src={logo} alt="logo" width={150} />
+              </Link>
+              <p className="text-[#A2783A]">events and weddings</p>
+            </section>
+            <section>
+              <Routes />
+            </section>
+            <section>
+              <Link href="tel:+917907613290">
+                <p>+91 7907613290</p>
+              </Link>
+              <Link href="mailto:anumadhavan7@gmail.com">
+                <p>anumadhavan7@gmail.com</p>
+              </Link>
+            </section>
+            <section className="flex w-full justify-center ">
+              <SocialNetworks />
+            </section>
+          </div>
         </SheetHeader>
         <SheetFooter></SheetFooter>
       </SheetContent>

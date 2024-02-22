@@ -1,10 +1,15 @@
-import ServiesImages from "@/components/Services/ServiesImages";
-import React from "react";
+import About from "@/components/Services/About";
+import ServicePage from "@/components/Services/ServicePage";
 
 const page = () => {
   return (
     <div>
-      <ServiesImages />
+      <div>
+        <ServicePage />
+      </div>
+      <div className="block lg:hidden">
+        <About />
+      </div>
     </div>
   );
 };
