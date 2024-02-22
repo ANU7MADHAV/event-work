@@ -5,15 +5,23 @@ import birthday from "@/public/birthday.png";
 
 const ServiesImages = () => {
   return (
-    <div className="mt-6 h-full px-4 lg:p-0">
+    <div className="mt-6 h-full  lg:p-0">
       <section>
         <h3>Events and Weddings</h3>
-        <h1>Our services</h1>
+        <h1 className="text-2xl">Our services</h1>
       </section>
-      <section className="flex w-[1000px] flex-col lg:flex-row lg:gap-4 ">
-        <Image src={wedding} alt="wedding" />
-        <Image src={birthday} alt="birthday" />
-        <Image src={event} alt="event" />
+      <section className="flex w-[1000px] flex-col gap-3  lg:flex-row lg:gap-4 ">
+        <Image
+          src={wedding}
+          alt="wedding"
+          className="overflow-hidden rounded-md"
+        />
+        <Image
+          src={birthday}
+          alt="birthday"
+          className="overflow-hidden rounded-md"
+        />
+        <Image src={event} alt="event" className="overflow-hidden rounded-md" />
       </section>
     </div>
   );
