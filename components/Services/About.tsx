@@ -8,7 +8,7 @@ const About = () => {
           <h1>Events and Weddings</h1>
           <section className="flex justify-between">
             <h1 className="text-2xl lg:text-4xl">About</h1>
-            <button className=" bg-black px-2 py-1 text-sm text-white">
+            <button className=" mr-7 bg-black  px-2 py-1 text-sm text-white md:mr-5">
               See more
             </button>
           </section>
