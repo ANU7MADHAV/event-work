@@ -1,8 +1,7 @@
 import FirstSection from "@/components/Homepage/FirstSection";
-import SecondSection from "./SecondSection";
 import Navbar from "../Navbar/Navbar";
+import SecondSection from "./SecondSection";
 import ThirdSection from "./ThirSection";
-import { SheetDemo } from "../Navbar/MobileNavbar";
 
 export default function Home() {
   return (

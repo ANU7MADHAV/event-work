@@ -5,7 +5,7 @@ import wedding from "@/public/wedding.png";
 
 const SecondSection = () => {
   return (
-    <div className="bg-[#FFF7EA] px-8 lg:ml-[150px] lg:w-[1000px]">
+    <div className="bg-pink-200 px-8 lg:ml-[150px] lg:w-[1000px]">
       <section className="py-6">
         <h1 className="text-lg">Events and Weddings</h1>
         <h1 className="text-4xl font-bold">Our services</h1>

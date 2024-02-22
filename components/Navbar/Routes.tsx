@@ -1,3 +1,4 @@
+import Link from "next/link";
 import link from "next/link";
 
 const Routes = () => {
@@ -29,7 +30,9 @@ const Routes = () => {
       <ul>
         {navLinks.map((link, index) => (
           <li key={index}>
-            <h1 className="text-[#A2783A]">{link.name}</h1>
+            <Link href={link.path!}>
+              <h1 className="text-[#A2783A]">{link.name}</h1>
+            </Link>
           </li>
         ))}
       </ul>

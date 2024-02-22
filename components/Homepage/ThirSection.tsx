@@ -1,6 +1,6 @@
 const ThirdSection = () => {
   return (
-    <div className="flex w-auto justify-between bg-[#FFF7EA] px-8 pb-3 lg:ml-[160px] lg:w-[980px] lg:px-4 lg:py-10">
+    <div className="flex w-auto justify-between bg-pink-200 px-8 pb-3 lg:ml-[160px] lg:w-[980px] lg:px-4 lg:py-10">
       <section className="flex w-[9500px] flex-col">
         <section className="py-4">
           <h1>Events and Weddings</h1>

@@ -1,24 +1,24 @@
 "use client";
 import {
   Sheet,
-  SheetClose,
   SheetContent,
   SheetFooter,
   SheetHeader,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Input } from "postcss";
-import Navbar from "./Navbar";
 import { Button } from "../ui/button";
+import Navbar from "./Navbar";
 
 export function SheetDemo() {
   return (
     <Sheet>
       <SheetTrigger className="bg-transparent" asChild>
-        <Button variant="outline">Open</Button>
+        <Button variant="outline" className="text-white">
+          Open
+        </Button>
       </SheetTrigger>
       <SheetContent>
-        <SheetHeader className="h-screen">
+        <SheetHeader className="h-screen py-2">
           <Navbar />
         </SheetHeader>
         <SheetFooter></SheetFooter>
