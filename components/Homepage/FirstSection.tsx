@@ -2,7 +2,7 @@ import { SheetDemo } from "../Navbar/MobileNavbar";
 
 const FirstSection = () => {
   return (
-    <div className="flex h-screen w-screen bg-[url('/home.png')] bg-cover object-cover  lg:h-[800px]">
+    <div className="flex h-screen w-screen bg-[url('/event1.jpg')] bg-cover bg-center px-[300px]  lg:h-[800px]">
       <section className="visible bg-none p-5 lg:hidden">
         <SheetDemo />
       </section>

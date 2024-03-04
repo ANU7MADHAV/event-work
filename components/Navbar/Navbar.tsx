@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="flex h-full  w-full flex-col justify-around overflow-y-scroll bg-pink-200 px-8 text-center  shadow">
+    <div className="flex h-full  w-full flex-col justify-around overflow-y-scroll bg-[#164e63] px-8 text-center text-[#b8d0da] shadow">
       <section className="w-full">
         <Link href="/" className="flex justify-center">
           <Image src={logo} alt="logo" width={150} />

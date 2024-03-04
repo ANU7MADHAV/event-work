@@ -16,12 +16,12 @@ import SocialNetworks from "./SocialNetworks";
 export function SheetDemo() {
   return (
     <Sheet>
-      <SheetTrigger className="bg-transparent" asChild>
+      <SheetTrigger className="bg-[#164e63]" asChild>
         <Button variant="outline" className="text-white">
           Open
         </Button>
       </SheetTrigger>
-      <SheetContent className="bg-pink-200">
+      <SheetContent className="bg-[#164e63]">
         <SheetHeader className="h-screen pb-4">
           <div className="flex h-full  w-full flex-col justify-around overflow-y-scroll  px-8 text-center">
             <section className="w-full">

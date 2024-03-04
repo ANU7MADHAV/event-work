@@ -11,9 +11,6 @@ const page = () => {
       <div className="pt-6">
         <ServicePage />
       </div>
-      <div className="block lg:hidden">
-        <About />
-      </div>
     </div>
   );
 };
